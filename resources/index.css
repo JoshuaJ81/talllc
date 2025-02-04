@@ -866,29 +866,28 @@ font-size: 1.25rem;
    
 }
 
+.footer-nav-menu li, 
+a {
+color: rgb(255, 255, 255);
+cursor: pointer;
+font-size: 1.15rem;
+font-weight: 300;
+text-decoration: none;
+font-family: Anton;
+list-style: none;
+}
+
 }
 
 
 
-/*========================================================= media queries mobile h1 tags and footer ========================================================================*/
+/*========================================================= media queries mobile h1 tags ========================================================================*/
 
 @media (max-width: 65.131rem) {
 
   #mission h1, #about h1, #services h1, #contact h1 {
 
     font-size: 2rem;
-  }
-
-
-  .footer-nav-menu li, 
-  a {
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  font-size: 1.25rem;
-  font-weight: 300;
-  text-decoration: none;
-  font-family: Anton;
-  list-style: none;
   }
 
 }
