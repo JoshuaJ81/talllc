@@ -766,7 +766,7 @@ font-size: 1.25rem;
 
   #hero h2 {
 
-    font-family: Segoe UI;
+    font-family: anton;
     font-size: 2.5rem;
     color:#fff;
     text-transform: uppercase;
@@ -888,6 +888,7 @@ list-style: none;
   #mission h1, #about h1, #services h1, #contact h1 {
 
     font-size: 2rem;
+    font-family: anton;
   }
 
 }
