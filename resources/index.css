@@ -888,7 +888,7 @@ list-style: none;
   #mission h1, #about h1, #services h1, #contact h1 {
 
     font-size: 2rem;
-    font-family: anton;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 }
