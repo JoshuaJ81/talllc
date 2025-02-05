@@ -783,7 +783,7 @@ font-size: 1.25rem;
 
 #mission p, #services p {
     
-  font-family: 'Segoe UI';
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 0.94rem;
   padding-bottom: 1.2rem;
