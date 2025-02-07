@@ -698,6 +698,10 @@ font-size: 1.25rem;
 @media (max-width: 65.131rem) {
   .hamburger {
       display: block;
+      background: #fff;
+      border-radius: 50%;
+      border: 9px solid;
+      padding: 6px 6px 6px 6px;
 
   }
 
@@ -706,12 +710,12 @@ font-size: 1.25rem;
   }
 
   .hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(90deg);
+      transform: translateY(8px) rotate(45deg);
   }
 
 
   .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(0deg);
+      transform: translateY(-8px) rotate(-45deg);
   }
 
   .navbar{
