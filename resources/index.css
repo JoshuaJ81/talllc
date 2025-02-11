@@ -323,7 +323,7 @@ font-size: 1.25rem;
       text-align: center;
       
       background-blend-mode: color;
-      height: 60rem;
+      height: 50rem;
       
       display: flex;
       flex-direction: column;
@@ -444,7 +444,7 @@ font-size: 1.25rem;
     .btn {
         
         font-family: 'Segoe UI';	
-        color: rgb(15, 15, 15);
+        color: #fff;
         background-color: rgb(238, 108, 9);
         opacity: 0.9;
         transition: 0.3s;
@@ -473,6 +473,42 @@ font-size: 1.25rem;
             opacity: 1;
             transition: 0.5s;
         }
+
+        .divbtn {
+        
+            font-family: 'Segoe UI';	
+            color: #fff;
+            background-color: rgb(238, 108, 9);
+            font-size: 1.25rem;
+            -webkit-text-stroke: 0.70px #f7f5f4;
+            opacity: 0.9;
+            transition: 0.3s;
+            border: solid 0.20rem rgba(240, 231, 231, .3);
+            border-radius: 1rem;
+            padding: 0.5rem 0.25rem;
+            text-decoration: none;
+            border-color: none;
+            border-style: hidden;
+            
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            width:22%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 4rem;
+            display:block;
+            cursor: pointer;
+            
+            
+            }
+            
+            .divbtn:hover {
+                background-color: rgb(14, 12, 12);
+                color:rgb(237, 241, 238);
+                opacity: 1;
+                transition: 0.5s;
+            }
 
         .mobilebtn {
         
@@ -524,6 +560,8 @@ font-size: 1.25rem;
           border-style: hidden;
           font-size: 1rem;
           font-weight: 300;
+          width: 36%;
+          -webkit-text-stroke: 0.70px #f7f5f4;
           text-transform: uppercase;
           text-align: center;
           margin-top: 6rem;
@@ -615,6 +653,84 @@ font-size: 1.25rem;
                 
             }
 
+                        /*=== CASH FLOW GRID TEMPLATE SECTION: When using grid-template, the values before the slash will determine the size of each row. 
+                        The values after the slash determine the size of each column. When using percentages to set rows, 
+                        each row will be a percentage of the grid’s total height. Columns are still a percentage of the total width. ===*/
+
+                        .grid-container {
+                        display: grid;
+                        width: 100%;
+                        height: 100%;
+                        grid-template: 1fr / 33.3% 33.3% 33.3%;
+                        align-items: center;
+        
+        
+                        }
+
+                        .serv img {
+                            display: block;
+                            max-width: 100%;
+                        }
+                        
+                        .agrid-container {
+                            display: grid;
+                            width: 100%;
+                            height: 100%;
+                            grid-template: 1fr / 50% 50%;
+                            align-items: center;
+                        }
+
+                        .gr1 {
+                            background-color:gray;
+                            
+                           }
+
+                       .gr2 {
+                        background-color:#ff7b00;
+                        
+                       }
+
+                       .gr3 {
+                        background-color: gray;
+                        
+                       }
+
+                       .gr11 {
+                        height: auto;
+                        width: auto;
+                        background-color: #f6b77c;
+                        padding-top: 10rem;
+                        padding-bottom: 10rem;
+                        vertical-align: middle;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center; 
+                                        
+                       }
+
+                       .gr12 {
+                        height: auto;
+                        width: auto;
+                        background-color: #f49134;
+                        padding-top: 10rem;
+                        padding-bottom: 10rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center; 
+                       }
+
+                       .gr13 {
+                        height: auto;
+                        width: auto;
+                        background-color:#ff7b00;
+                        padding-top: 10rem;
+                        padding-bottom: 10rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center; 
+                       }
+
+
             
             /*================================================================== 12. MEDIA QUERIES =======================================================*/
 
@@ -644,6 +760,16 @@ font-size: 1.25rem;
   }
   
   }
+
+  /*media query for grid template display in mobile*/
+
+@media (max-width: 67em) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.2fr;
+    }
+
+}
   
   /*media query to reduce size of li, a, and navbar search box*/
   
@@ -726,10 +852,10 @@ font-size: 1.25rem;
   .nav-menu {
       position: fixed;
       left: -100%;
-      top: 3.70rem;
+      top: 4.70rem;
       gap: 0;
       flex-direction: column;
-      background-color: rgb(176, 15, 15);
+      background-color: gray;
       width: 100%;
       text-align: center;
       transition: 0.3s;
