@@ -35,7 +35,7 @@ section {
     height: auto;
     padding: 0.875rem 3%;
     background-color: gray;
-    
+    z-index: 1;
 
 
 }
@@ -47,6 +47,10 @@ font-size: 1.25rem;
 -webkit-text-stroke: 0.70px #f7f5f4;
 
 
+}
+
+.contact-top img {
+    padding-left: 4rem;
 }
 
 
@@ -770,6 +774,69 @@ font-size: 1.25rem;
     }
 
 }
+
+/*======================================= media query for button text resize ===========================================================*/
+@media(max-width: 36rem) {
+
+    .divbtn {
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+        color: #fff;
+        background-color: rgb(238, 108, 9);
+        opacity: 0.9;
+        transition: 0.3s;
+        border: solid 0.20rem rgba(240, 231, 231, .3);
+        border-radius: 1rem;
+        padding: 0.5rem 0.5rem;
+        text-decoration: none;
+        border-color: none;
+        border-style: hidden;
+        font-size: 0.80rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        width:22%;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        cursor: pointer;
+        
+        
+        }
+
+
+        .altbtn {
+        
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+            color: rgb(237, 241, 238);
+            background-color: gray;
+            opacity: 0.9;
+            transition: 0.3s;
+            border: solid 0.20rem rgba(240, 231, 231, .3);
+            border-radius: 0.80rem;
+            padding: 0.5rem 0.5rem;
+            text-decoration: none;
+            border-color: none;
+            border-style: hidden;
+            font-size: 1rem;
+            font-weight: 300;
+            width: 36%;
+            -webkit-text-stroke: 0.70px #f7f5f4;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 6rem;
+            margin-left: auto;
+            margin-right: auto;
+            display:block;
+            cursor: pointer;
+            -webkit-text-stroke: 0.70px #f7f5f4;
+            
+            }
+
+
+}
+
+
   
   /*media query to reduce size of li, a, and navbar search box*/
   
