@@ -75,7 +75,7 @@ font-size: 1.25rem;
   
 .navbar-container {
   display: flex;
- 
+  
 }
 
   .navbar {
@@ -166,6 +166,11 @@ font-size: 1.25rem;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         
+    }
+
+    .mobile-social-media {
+
+        display: none;
     }
 
 
@@ -759,8 +764,9 @@ font-size: 1.25rem;
 
   .logo {
   
-      height: 1.75rem;
+      height: 3.25rem;
       width: 7.5rem;
+      
   }
   
   }
@@ -850,13 +856,32 @@ font-size: 1.25rem;
           font-size: 1.35rem;
           
           font-weight: 300;
-          color: rgb(15, 15, 15);
+          color: #fff;
           text-decoration: none;
           cursor: pointer;
           }
   
   
   
+  }
+
+  @media(max-width:30.69rem) {
+
+
+    .nav-menu a, li
+    {
+       font-family: Anton;
+       text-decoration: none;
+       
+       font-size: 1.20rem;
+       
+       font-weight: 300;
+       color: #fff;
+       text-decoration: none;
+       cursor: pointer;
+       }
+
+
   }
 
   /*media query to hide top bar*/
@@ -891,10 +916,8 @@ font-size: 1.25rem;
 @media (max-width: 65.131rem) {
   .hamburger {
       display: block;
-      background: #fff;
-      border-radius: 50%;
-      border: 9px solid;
-      padding: 6px 6px 6px 6px;
+      
+      padding: 0px 0px 6px 0px;
 
   }
 
@@ -925,6 +948,7 @@ font-size: 1.25rem;
       background-color: gray;
       width: 100%;
       text-align: center;
+      
       transition: 0.3s;
   }
 
@@ -944,6 +968,11 @@ font-size: 1.25rem;
   }
 
  
+    .mobile-social-media {
+
+    display:block;
+    }
+
 
   #hero p {
 
