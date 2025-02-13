@@ -645,6 +645,34 @@ font-size: 1.25rem;
           }
     
         
+          .copyright {
+            background-color:#ff7b00;
+            text-align: center;
+            display: block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            padding: 1.5rem 0;
+            
+          }
+
+          .endfooter {
+            background-color: gray;
+            text-align: center;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            
+            
+          }
+
+          .endfooter p {
+
+            margin:9px 0;
+          }
+
+        
+    
     
         /*== margin-inline is for left and right margins only; margin-block would be top and bottom. Min-width below our 90% adds padding
         to left and right when minimizing screen, our 70.5rem is the maximum width. MIN WIDTH A KEY ELEMENT TO RESPONSIVE DESIGN ==*/
@@ -709,8 +737,8 @@ font-size: 1.25rem;
                         height: auto;
                         width: auto;
                         background-color: #f6b77c;
-                        padding-top: 10rem;
-                        padding-bottom: 10rem;
+                        padding-top: 6rem;
+                        padding-bottom: 6rem;
                         vertical-align: middle;
                         display: flex;
                         justify-content: center;
@@ -722,8 +750,8 @@ font-size: 1.25rem;
                         height: auto;
                         width: auto;
                         background-color: #f49134;
-                        padding-top: 10rem;
-                        padding-bottom: 10rem;
+                        padding-top: 6rem;
+                        padding-bottom: 6rem;
                         display: flex;
                         justify-content: center;
                         align-items: center; 
@@ -733,8 +761,8 @@ font-size: 1.25rem;
                         height: auto;
                         width: auto;
                         background-color:#ff7b00;
-                        padding-top: 10rem;
-                        padding-bottom: 10rem;
+                        padding-top: 6rem;
+                        padding-bottom: 6rem;
                         display: flex;
                         justify-content: center;
                         align-items: center; 
