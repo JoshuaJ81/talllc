@@ -321,6 +321,7 @@ font-size: 1.25rem;
             font-size: 1rem;
             padding-bottom: 1.2rem;
             }
+            
     
     /*================================================================= ABOUT ====================================================================*/
 
@@ -382,8 +383,12 @@ font-size: 1.25rem;
             
       background-color: rgb(238, 108, 9);
       
-      
-      
+      }
+
+      .blackbox {
+        background-color: #141414;
+        height: 780px;
+        width: 1170px;
       }
 
     
@@ -694,6 +699,22 @@ font-size: 1.25rem;
                         /*=== CASH FLOW GRID TEMPLATE SECTION: When using grid-template, the values before the slash will determine the size of each row. 
                         The values after the slash determine the size of each column. When using percentages to set rows, 
                         each row will be a percentage of the grid’s total height. Columns are still a percentage of the total width. ===*/
+
+                        .altgrid-container {
+                          display: grid;
+                          width: 100%;
+                          height: 100%;
+                          grid-template: 1fr / 50% 50%;
+                          align-items: center;
+                          
+          
+                          }
+
+                          .altgridstrip {
+                            background-color: rgb(238, 108, 9);
+                            height: 12rem;
+                            width: 100%;
+                          }
 
                         .grid-container {
                         display: grid;
