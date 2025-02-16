@@ -262,6 +262,8 @@ font-size: 1.25rem;
        }
   }
 
+ 
+
 
     /*=========================================================== UTILITIES ================================================================*/
 
@@ -294,6 +296,42 @@ font-size: 1.25rem;
             justify-content: center;
             align-items: center;
             
+          }
+
+          
+
+          #whtpghero h1, #whtpghero h1 {
+
+            font-family: Segoe UI;
+            font-size: 3rem;
+            color:gray;
+            text-transform: uppercase;
+            -webkit-text-stroke: 2px rgb(238, 108, 9);
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;      
+      
+          }
+      
+          #whtpghero h3 {
+      
+            font-family: montserrat;
+            font-size: 1rem;
+            color:#232020;
+            text-transform: uppercase;
+            
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;      
+      
+          }
+
+          #whtpghero p {
+            color: black;
           }
 
     /*============================================================== MISSION STATEMENT ========================================================*/
@@ -451,6 +489,142 @@ font-size: 1.25rem;
       height: 680px;
       width: 100%;
   }
+
+
+  /*================================================================ CONTACT FORM ===========================================================*/
+
+  .contactdiv {
+    height: auto;
+   }
+     
+  
+  .contactdiv-box {
+    background-color:gray;
+    height: 680px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+
+  
+.contactdiv .btn {
+        
+  font-family: 'Segoe UI';	
+  color: rgb(237, 241, 238);
+  background-color: rgb(238, 108, 9);
+  opacity: 0.9;
+  transition: 0.3s;
+  border: solid 0.20rem rgba(240, 231, 231, .3);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  border-color: none;
+  border-style: hidden;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 36%;
+  -webkit-text-stroke: 0.70px #f7f5f4;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  cursor: pointer;
+  -webkit-text-stroke: 0.70px #f7f5f4;
+  
+  
+  }
+
+
+  .contactdiv .btn:hover {
+    background-color: rgb(237, 241, 238);
+    color:rgb(14, 12, 12);
+    opacity: 1;
+    transition: 0.5s;
+    -webkit-text-stroke: 0.70px rgb(14, 12, 12);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+label {
+  display: block;
+  line-height: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-family: montserrat;
+  
+  
+}
+
+input {
+  height: 2rem;
+  width: 25rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  
+}
+
+
+
+#message {
+  width: 25rem;
+  }
+
+.contactdiv h3 {
+  color:#fff;
+  font-family: montserrat;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+  
+  #form {
+  
+  color: white;
+  display: table;
+  padding: 1rem;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+
+  }
+
+  .thanks h1 {
+
+    color:#a21919;
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+
+  }
+
+  .thanks h2 {
+
+    font-size: 2rem;
+    color:rgb(11, 11, 11);
+    font-family: Dancing Script;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+
+  
+
+
 
     
 
@@ -712,7 +886,7 @@ font-size: 1.25rem;
 
                           .altgridstrip {
                             background-color: rgb(238, 108, 9);
-                            height: 12rem;
+                            height: 6rem;
                             width: 100%;
                           }
 
@@ -724,6 +898,19 @@ font-size: 1.25rem;
                         align-items: center;
         
         
+                        }
+
+                        .serv {
+                          background-color: #ff7b00;
+                        }
+
+                        .serv h1 {
+                          font-family: anton;
+                          font-size: 3.75rem;
+                          text-transform: uppercase;
+                          text-align: center;
+                         
+
                         }
 
                         .serv img {
@@ -739,57 +926,7 @@ font-size: 1.25rem;
                             align-items: center;
                         }
 
-                        .gr1 {
-                            background-color:gray;
-                            
-                           }
-
-                       .gr2 {
-                        background-color:#ff7b00;
-                        
-                       }
-
-                       .gr3 {
-                        background-color: gray;
-                        
-                       }
-
-                       .gr11 {
-                        height: auto;
-                        width: auto;
-                        background-color: #f6b77c;
-                        padding-top: 6rem;
-                        padding-bottom: 6rem;
-                        vertical-align: middle;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center; 
-                                        
-                       }
-
-                       .gr12 {
-                        height: auto;
-                        width: auto;
-                        background-color: #f49134;
-                        padding-top: 6rem;
-                        padding-bottom: 6rem;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center; 
-                       }
-
-                       .gr13 {
-                        height: auto;
-                        width: auto;
-                        background-color:#ff7b00;
-                        padding-top: 6rem;
-                        padding-bottom: 6rem;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center; 
-                       }
-
-
+                       
             
             /*================================================================== 12. MEDIA QUERIES =======================================================*/
 
@@ -828,6 +965,17 @@ font-size: 1.25rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1.2fr;
     }
+
+}
+
+/*media query for altgridstrip*/
+
+@media(max-width: 65.1875rem) {
+  .altgridstrip {
+    background-color: rgb(238, 108, 9);
+    height: 2rem;
+    width: 100%;
+  }
 
 }
 
@@ -1132,6 +1280,22 @@ font-size: 1.25rem;
 
   }
 
+  #whtpghero h3 {
+
+    font-family: montserrat;
+    font-size: 0.80rem;
+    color:#232020;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+
+  }
+
   .contact-box p {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1162,9 +1326,20 @@ list-style: none;
 
 @media (max-width: 65.131rem) {
 
-  #mission h1, #about h1, #services h1, #contact h1 {
+  #mission h1, #about h1, #services h1, #contact h1, #whtpghero h1 {
 
     font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+}
+
+
+@media (max-width: 65.131rem) {
+
+  .serv h1 {
+
+    font-size: 1.65rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
